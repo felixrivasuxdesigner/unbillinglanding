@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;300;400;700&display=swap");
+html,
+body {
+  font-family: "Spartan", sans-serif;
+}
+body {
+  background: url(../images/svgs/waves.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-attachment: fixed;
+}
+.mt-6 {
+  margin-top: 9rem;
+}
+.navbar-brand img {
+  width: 200px;
+}
+.navbar-light .navbar-text {
+  color: black !important;
+}
+.navbar div p {
+  font-size: 0.7rem !important;
+}
+.btn-primary {
+  background-color: #59b57d !important;
+}
+.btn-secondary {
+  background-color: #eaac41 !important;
+}
+.list-inline-item a {
+  text-decoration: none;
+  color: #495057;
+}
+.list-inline-item.active a span {
+  border: solid 1px black !important;
+  border-radius: 50%;
+  padding: 3px calc(7px + 2px);
+  color: black;
+}
+@media (max-width: 576px) {
+  .mt-6 {
+    margin-top: 10.5rem !important;
+  }
+}
